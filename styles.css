@@ -72,10 +72,13 @@ background: linear-gradient(to right, #3c1053, #ad5389);  */
     background-color: #8448d9;
     padding: 10px 10px;
 }
-
+.brand{
+    font-size: 70px;
+    
+}
 .text{
-    font-size: 52px;
-    width: 37%;
+    font-size: 42px;
+    width: 32%;
     height: 0;
     margin: 60px 60px 0px 120px;
     font-weight: 700;
@@ -116,10 +119,41 @@ font-size: 50px;
 
 .cam-image{
     margin: 30px 120px;
+    
 }
 .cam-image img{
 width: 40%;
 float: left;
-
+background: rgba(0, 0, 0, 0.25);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 20px;
 }
 
+.specs{
+    width: 15%;
+    float: right;
+    margin: 49px 17px;
+    height: 170px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.gradient{
+position: absolute;
+z-index: -1;
+height: 17rem;
+width: 40%;
+right: 6%;
+border-radius: 200px 0px 50px 0px;
+
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+background: linear-gradient(to right, #3c1053, #ad5389);
+opacity: 0.3;
+
+}
