@@ -104,11 +104,12 @@ section{
 
  section.product-details{
   
-    height: 600px;
+    height: max-content;
     padding: 30rem 0;
   }
 .main-div{
     text-align: center;
+    padding: 170px 0;
 }
 .heading{
 
@@ -134,14 +135,16 @@ border-radius: 20px;
 .specs{
     width: 15%;
     float: right;
-    margin: 49px 17px;
+    margin: 49px 27px;
     height: 170px;
     background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
+
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 }
 
 .gradient{
@@ -149,11 +152,11 @@ position: absolute;
 z-index: -1;
 height: 17rem;
 width: 40%;
-right: 6%;
+right: 10%;
 border-radius: 200px 0px 50px 0px;
-
+filter: blur(40px);
 background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
 background: linear-gradient(to right, #3c1053, #ad5389);
-opacity: 0.3;
+opacity: 0.7;
 
 }
