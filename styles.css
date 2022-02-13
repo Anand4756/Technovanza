@@ -99,6 +99,10 @@ background: linear-gradient(to right, #3c1053, #ad5389);  */
     margin-right: 120px;
     
 }
+.img1:hover{
+    transform: scale(1.03);
+}
+
 section{
     padding: 2rem 0;
  }
@@ -185,7 +189,7 @@ opacity: 0.4;
   margin: 49px 29px;
   position: relative;
   left: 12%;
-
+  
     background: rgba( 255, 255, 255, 0.1 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 3px );
@@ -193,4 +197,40 @@ backdrop-filter: blur( 3px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+section.price{
+    height: max-content;
+    }
 
+ .price-image{
+     margin-left: 120px;
+ }   
+.price-text{
+    width: 40%;
+    float: right;
+    font-size: 4rem;
+    padding: 0;
+ 
+    margin-right: 80px;
+    margin-top: -30rem;
+    
+}
+.gradient-price{
+    background: linear-gradient(45deg,  #0e2f40, #2a136b);
+    animation: animate 7s linear infinite;
+    width: 43%;
+    height: 250px;
+    margin-top: -31rem;
+    margin-right: 120px;
+    float: right;
+    border-radius: 80px 30px 120px 10px;
+    position: relative;
+    z-index: -1;
+}
+@keyframes animate {
+    0%{
+        filter: blur(40px) hue-rotate(0deg);
+    }
+    100%{
+        filter: blur(40px) hue-rotate(360deg);
+    }
+}
