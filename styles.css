@@ -217,7 +217,7 @@ section.price{
 }
 .gradient-price{
     background: linear-gradient(45deg,  #0e2f40, #2a136b);
-    animation: animate 7s linear infinite;
+    animation: animate 4s linear infinite;
     width: 43%;
     height: 250px;
     margin-top: -31rem;
@@ -229,10 +229,10 @@ section.price{
 }
 @keyframes animate {
     0%{
-        filter: blur(40px) hue-rotate(0deg);
+        filter: blur(60px) hue-rotate(0deg);
     }
     100%{
-        filter: blur(40px) hue-rotate(360deg);
+        filter: blur(60px) hue-rotate(360deg);
     }
 }
 
@@ -260,4 +260,73 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 margin: 10px 0;
+border-radius: 6px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:763px){
+body{
+    overflow-x: hidden;
+}
+
+ .img1{
+
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.img1 img{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    
+    
+}
+
+.text {
+    width: 100%;
+    position: absolute;
+    top: 29rem;
+    left: 6%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.cam-image{
+width: 100%;
+
+}
+.cam-image img{
+width: 80%;
+margin-bottom: 40px;
+} 
+
+section.product-details{
+  
+    height: max-content;
+    
+  }
+  .gradient{
+      position: absolute;
+      top: 210%;
+      right: 40%;
+      filter: blur(90px);
+      
+  }
+.specs{
+    width: 70%;
+    display: flex;
+    margin: 70px auto;
+    float: none;
+    
+  
+}
+
+
+
+
 }
