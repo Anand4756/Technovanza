@@ -9,12 +9,6 @@
 body{
     background-color: #000000;
 }
-/* 
-background: #ad5389; 
-background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  
-background: linear-gradient(to right, #3c1053, #ad5389);  */
-
-
 .nav{
     display: flex;
     align-items: center;
@@ -326,7 +320,16 @@ section.product-details{
   
 }
 
+.feature-box{
+    width: 80%;
 
+margin: 49px 0px;
+  position: relative;
+  left: 10%;
 
+}
+.price-image{
+height: 40%;
+}
 
 }
