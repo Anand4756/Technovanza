@@ -12,10 +12,7 @@ body{
 .nav{
     display: flex;
     align-items: center;
-  
     text-align: center;
-
-
 }
 .navbar{
 
@@ -37,10 +34,10 @@ body{
 }
 .navbar ul li{
     display: inline-block;
-   margin: 5px 40px;
+   margin: 5px 60px;
     z-index: 1;
 
-     font-size: 17px;
+     font-size: 18px;
      
 }
 
@@ -58,7 +55,7 @@ body{
 .border{
     height: 2px;
     background-color: #8448d9;
-    margin: 10px auto;
+    margin: 56px auto;
 
     width: 82%;
 }
@@ -96,7 +93,12 @@ body{
 .img1:hover{
     transform: scale(1.03);
 }
-
+#menubtn{
+    display: none;
+    
+  height: 30px;
+    
+  }
 section{
     padding: 2rem 0;
  }
@@ -263,11 +265,17 @@ border-radius: 6px;
 
 
 
-@media only screen and (max-width:763px){
+@media only screen and (max-width:963px){
 body{
     overflow-x: hidden;
 }
 
+.logo{
+
+margin: 0 20px;
+z-index: 1;
+
+}
  .img1{
 
     margin: 0 auto;
@@ -281,27 +289,36 @@ body{
     
     
 }
+.main-div{
+padding: 0;
+margin: 7rem 0;
 
+
+}
 .text {
     width: 100%;
     position: absolute;
     top: 29rem;
     left: 6%;
-    margin: 0 auto;
+    
+    margin: 0px auto 140px auto;
     font-size: 30px;
 }
 .cam-image{
-width: 100%;
+width: 80%;
+margin: 0 auto;
 
 }
 .cam-image img{
-width: 80%;
+width: 100%;
 margin-bottom: 40px;
 } 
 
 section.product-details{
   
     height: max-content;
+    margin-top: 36rem;
+    padding: 0;
     
   }
   .gradient{
@@ -329,7 +346,60 @@ margin: 49px 0px;
 
 }
 .price-image{
-height: 40%;
+width: 40%;
+margin-left: 15px;
+}
+.price-image img{
+    width: 100%;
+}
+.price-text{
+    
+    
+    font-size: 3rem;
+    
+ 
+    margin-right: 20px;
+    margin-top: -19rem;
+    
+}
+.gradient-price{
+    margin-top: -15rem;
+}
+details{
+    width: 90%;
+    margin: 30px auto;
+}
+.two-gradient{
+    height: 70rem;
+}
+#menubtn{
+    display: block;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    right: 20px;
+    
+}
+
+   .navbar ul{
+    position: absolute;
+    top: 70px; 
+    left: 0;
+    background: rgb(2, 2, 2);
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    
+    transition: max-height 0.4s;
+}    
+.navbar ul li{
+    display: block;
+    margin-right: 50px;
+    
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+   
 }
 
 }

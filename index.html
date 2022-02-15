@@ -10,11 +10,12 @@
 </head>
 <body>
 <section class="first-sec">
+	<h2 class="logo">ALPHA 5G</h2>
 	<div class="nav">
         <div class="navbar"> 
 			
             <ul id="MenuItems">
-				<h2 class="logo">ALPHA 5G</h2>
+		
         <li><a class="active" href="#home" id="nav">Home</a></li> 
         <li><a href="#project" id="nav1">Features</a></li> 
         <li><a href="#skills" id="nav2">Price</a></li> 
@@ -26,6 +27,7 @@
       </div>
 	  
     </div>
+	<img src="images/menu-icon.png" style="border-radius: 25px" id="menubtn" class="menu-icon" onclick="menutoggle()">
 	<div class="border"></div>
 	<div class="main-content">
 	
@@ -139,7 +141,7 @@ Comes with 12 + 12mp camera setup
 		<p>A Crystal Clear Display.</p>
 	</div>
 	<div class="cam-image">
-	<img src="images/display.png" loading="lazy">
+	<img src="images/display.PNG" loading="lazy">
 	
 	</div>
 	<div class="gradient">
@@ -279,6 +281,28 @@ Comes with 12 + 12mp camera setup
 </section>
 
 
+
+
+
+
+
+
+
+
+<script>
+var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight="330px"
+        }else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+
+
+</script>
 
 
 </body>
