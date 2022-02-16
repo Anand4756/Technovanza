@@ -34,7 +34,7 @@ body{
 }
 .navbar ul li{
     display: inline-block;
-   margin: 5px 60px;
+   margin: 5px 35px;
     z-index: 1;
 
      font-size: 18px;
@@ -48,9 +48,22 @@ body{
     
     
   }
+  .navbar ul li:hover{
+      transition: ease-in 0.4s;
+    transform: scale(1.2);
+    border-bottom: 3px solid white;
+    
+  }
+ 
+  .navbar ul li.contact-hover {
+    border: none;
+  }
+ 
+
 .logo{
     float: left;
-    margin: 5px 120px;
+    margin: -10px 120px;
+    width: 220px;
 }
 .border{
     height: 2px;
@@ -64,21 +77,24 @@ body{
     padding: 10px 10px;
 }
 .brand{
-    font-size: 70px;
+    font-size: 90px;
     color: #97fde8;
+    font-weight: 800;
     
+    text-shadow: 1px 2px 100px #5f14c7;
 }
+
 .text{
-    font-size: 42px;
+    font-size: 55px;
     width: 32%;
     height: 0;
     margin: 60px 60px 0px 120px;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
     text-decoration: none;
     letter-spacing: 3px;
     line-height: 1.3;
-    text-shadow: 4px -2px 0 #8448d9;
+    
 }
 .img1{
     float: right;
@@ -132,9 +148,13 @@ backdrop-filter: blur( 7px );
 -webkit-backdrop-filter: blur( 7px );
 border-radius: 20px;
 }
-
+b{
+    font-size: 30px;
+    
+}
 .specs{
     width: 15%;
+    font-size: 29px;
     float: right;
     margin: 49px 27px;
     height: 170px;
@@ -164,6 +184,7 @@ opacity: 0.7;
 
 section.product-quality{
 height: max-content;
+margin-top: 7rem;
 }
 .two-gradient{
     position: absolute;
@@ -182,7 +203,7 @@ opacity: 0.4;
    width: 15%;
     height: 170px;
     display: inline-block;
-
+    padding: 3px;
   margin: 49px 29px;
   position: relative;
   left: 12%;
@@ -193,6 +214,10 @@ backdrop-filter: blur( 3px );
 -webkit-backdrop-filter: blur( 12px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.feature-box p{
+    font-size: 1rem;
+    margin: 13px 5px;
 }
 section.price{
     height: max-content;
@@ -238,9 +263,9 @@ section.faq{
 }
 details{
     font-size: 25px;
-    margin: 40px 11rem;
+    margin: 30px 11rem;
     width: 75%;
-    height: 40px;
+    height: max-content;
     cursor: pointer;
     background: rgba( 255, 255, 255, 0.25 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -256,9 +281,32 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 margin: 10px 0;
+color: black;
 border-radius: 6px;
 }
+.footer{
+    background: rgba(80, 72, 72, 0.055);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    
 
+
+}
+.footer-div{
+    width: max-content;
+    margin: 0 auto;
+    
+}
+.block{
+display: inline-block;
+margin: 0 40px;
+}
+.copyright{
+    background: rgba(92, 66, 66, 0.06);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+
+    
+    text-align: center;
+}
 
 
 
@@ -375,7 +423,7 @@ details{
 #menubtn{
     display: block;
     position: absolute;
-    top: 20px;
+    top: 30px;
     cursor: pointer;
     right: 20px;
     
