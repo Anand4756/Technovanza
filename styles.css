@@ -327,7 +327,7 @@ margin: 0 40px;
 
 
 
-@media only screen and (max-width:1163px){
+@media only screen and (max-width:1200px){
 body{
     overflow-x: hidden;
 }
@@ -490,5 +490,11 @@ details{
     font-size: 20px;
 }
 
+section.product-details{
+  
+    margin-top: 50rem;
+    
+    
+  }
 
 }
